@@ -1,0 +1,32 @@
+[
+  {
+    "type": "input",
+    "label": "Serial Port",
+    "key": "serialPort",
+    "default": "/dev/ttyUSB0"
+  },
+  {
+    "type": "json",
+    "label": "On Command",
+    "key": "codes.on",
+    "placeholder": "{\"packetType\":\"Lighting1\",\"subtype\":\"Mertik\",\"id\":\"0x123456\",\"command\":\"On\"}"
+  },
+  {
+    "type": "json",
+    "label": "Off Command",
+    "key": "codes.off",
+    "placeholder": "{\"packetType\":\"Lighting1\",\"subtype\":\"Mertik\",\"id\":\"0x123456\",\"command\":\"Off\"}"
+  },
+  {
+    "type": "json",
+    "label": "Up Command",
+    "key": "codes.up",
+    "placeholder": "{\"packetType\":\"Lighting1\",\"subtype\":\"Mertik\",\"id\":\"0x123456\",\"command\":\"Up\"}"
+  },
+  {
+    "type": "json",
+    "label": "Down Command",
+    "key": "codes.down",
+    "placeholder": "{\"packetType\":\"Lighting1\",\"subtype\":\"Mertik\",\"id\":\"0x123456\",\"command\":\"Down\"}"
+  }
+]
