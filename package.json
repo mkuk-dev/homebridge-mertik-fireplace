@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-mertik-fireplace",
+  "version": "1.0.0",
+  "description": "Control Mertik Fireplace via RFXtrx433XL",
+  "main": "index.js",
+  "keywords": ["homebridge-plugin"],
+  "engines": {
+    "node": ">=18.0.0",
+    "homebridge": ">=1.6.0"
+  },
+  "dependencies": {
+    "rfxcom": "^1.0.0"
+  },
+  "homebridge": {
+    "accessories": ["MertikFireplace"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkuk-dev/homebridge-mertik-fireplace.git"
+  },
+  "author": "Matt",
+  "license": "MIT"
+}
